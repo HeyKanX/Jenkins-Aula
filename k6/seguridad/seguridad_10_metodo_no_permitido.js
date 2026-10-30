@@ -1,0 +1,12 @@
+import http from 'k6/http';
+import { check } from 'k6';
+
+const BASE_URL = __ENV.BASE_URL || 'http://127.0.0.1:3000';
+const expected404 = http.expectedStatuses(404);
+
+export const options = { vus: 1, iterations: 1, thresholds: { checks: ['rate==1'] } };
+
+export default function () {
+  const response = http.del(`${BASE_URL}/api/messages`, null, { responseCallback: expected404 });
+  check(response, { 'rechaza método DELETE no definido': (r) => r.status === 404 });
+}

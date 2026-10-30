@@ -1,0 +1,21 @@
+# Dependencias y entornos locales
+node_modules/
+.venv/
+venv/
+env/
+
+# Caché y archivos temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.behave/
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Resultados locales de herramientas
+k6-summary.json

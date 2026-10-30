@@ -19,3 +19,6 @@ Thumbs.db
 
 # Resultados locales de herramientas
 k6-summary.json
+tests/functional/reports/
+jenkins-server*.log
+.jenkins-server.pid

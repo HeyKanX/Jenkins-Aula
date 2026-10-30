@@ -5,76 +5,90 @@ pipeline {
         timeout(time: 30, unit: 'MINUTES')
     }
 
+    environment {
+        CI = 'true'
+        CHROME_BIN = '/usr/bin/chromium'
+    }
+
     stages {
+        stage('Verificar herramientas') {
+            steps {
+                sh '''
+                    node --version
+                    npm --version
+                    python3 --version
+                    chromium --version
+                    k6 version
+                '''
+            }
+        }
+
         stage('Preparar dependencias funcionales') {
             steps {
-                powershell '''
-                    py -3 -m venv .venv
-                    & .\\.venv\\Scripts\\python.exe -m pip install --upgrade pip
-                    & .\\.venv\\Scripts\\python.exe -m pip install -r tests\\functional\\requirements.txt
-                    if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+                sh '''
+                    rm -rf .venv tests/functional/reports
+                    python3 -m venv .venv
+                    .venv/bin/python -m pip install --upgrade pip
+                    .venv/bin/python -m pip install -r tests/functional/requirements.txt
+                    mkdir -p tests/functional/reports
                 '''
             }
         }
 
         stage('Pruebas unitarias de backend') {
             steps {
-                bat 'npm test'
+                catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
+                    sh 'npm test'
+                }
             }
         }
 
         stage('Iniciar Aula Nova') {
             steps {
-                powershell '''
-                    if (Get-NetTCPConnection -LocalPort 3000 -State Listen -ErrorAction SilentlyContinue) {
-                        throw 'El puerto 3000 ya está en uso en el agente Jenkins.'
-                    }
+                sh '''
+                    if [ -f .jenkins-server.pid ] && kill -0 "$(cat .jenkins-server.pid)" 2>/dev/null; then
+                        echo 'Ya existe un servidor de Aula Nova en este workspace.'
+                        exit 1
+                    fi
 
-                    $server = Start-Process -FilePath 'node' -ArgumentList 'backend/server.js' -PassThru -RedirectStandardOutput 'jenkins-server.log' -RedirectStandardError 'jenkins-server-error.log'
-                    $server.Id | Set-Content -Path '.jenkins-server.pid'
+                    nohup node backend/server.js > jenkins-server.log 2> jenkins-server-error.log &
+                    echo $! > .jenkins-server.pid
 
-                    $ready = $false
-                    for ($attempt = 1; $attempt -le 30; $attempt++) {
-                        try {
-                            $response = Invoke-WebRequest -Uri 'http://127.0.0.1:3000/' -UseBasicParsing -TimeoutSec 1
-                            if ($response.StatusCode -eq 200) {
-                                $ready = $true
-                                break
-                            }
-                        } catch {
-                            Start-Sleep -Seconds 1
-                        }
-                    }
+                    for attempt in $(seq 1 30); do
+                        if curl --fail --silent http://127.0.0.1:3000/ > /dev/null; then
+                            exit 0
+                        fi
+                        sleep 1
+                    done
 
-                    if (-not $ready) {
-                        throw 'Aula Nova no inició en http://127.0.0.1:3000.'
-                    }
+                    echo 'Aula Nova no inició en http://127.0.0.1:3000.'
+                    exit 1
                 '''
             }
         }
 
         stage('Pruebas funcionales') {
             steps {
-                powershell '''
-                    New-Item -ItemType Directory -Force tests\\functional\\reports | Out-Null
-                    & .\\.venv\\Scripts\\behave.exe tests\\functional\\features --junit --junit-directory tests\\functional\\reports
-                    if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-                '''
+                catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
+                    sh '.venv/bin/behave tests/functional/features --junit --junit-directory tests/functional/reports'
+                }
             }
         }
 
         stage('Pruebas no funcionales con k6') {
             steps {
-                powershell '''
-                    $groups = @('rendimiento', 'estres', 'seguridad')
-                    foreach ($group in $groups) {
-                        Get-ChildItem -Path (Join-Path 'k6' $group) -Filter '*.js' | Sort-Object Name | ForEach-Object {
-                            Write-Host "Ejecutando $($_.FullName)"
-                            & k6 run $_.FullName
-                            if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-                        }
-                    }
-                '''
+                catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
+                    sh '''
+                        status=0
+                        for group in rendimiento estres seguridad; do
+                            for script in k6/"$group"/*.js; do
+                                echo "Ejecutando $script"
+                                k6 run "$script" || status=1
+                            done
+                        done
+                        exit "$status"
+                    '''
+                }
             }
         }
     }
@@ -83,15 +97,11 @@ pipeline {
         always {
             junit allowEmptyResults: true, testResults: 'tests/functional/reports/*.xml'
             archiveArtifacts artifacts: 'tests/functional/evidencias/**/*.png,tests/functional/reports/**/*.xml,jenkins-server*.log', allowEmptyArchive: true
-            powershell '''
-                if (Test-Path -LiteralPath '.jenkins-server.pid') {
-                    $serverPid = [int](Get-Content -LiteralPath '.jenkins-server.pid')
-                    $server = Get-Process -Id $serverPid -ErrorAction SilentlyContinue
-                    if ($server) {
-                        Stop-Process -Id $serverPid -Force
-                    }
-                    Remove-Item -LiteralPath '.jenkins-server.pid' -Force
-                }
+            sh '''
+                if [ -f .jenkins-server.pid ]; then
+                    kill "$(cat .jenkins-server.pid)" 2>/dev/null || true
+                    rm -f .jenkins-server.pid
+                fi
             '''
         }
     }

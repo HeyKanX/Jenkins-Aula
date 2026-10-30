@@ -7,10 +7,10 @@ const CANTIDAD = Number(__ENV.MENSAJES || 100);
 export const options = {
   setupTimeout: '5m',
   stages: [
-    { duration: '15s', target: 10 },
-    { duration: '30s', target: 100 },
-    { duration: '1m', target: 100 },
-    { duration: '15s', target: 0 },
+    { duration: '5s', target: 10 },
+    { duration: '10s', target: 100 },
+    { duration: '25s', target: 100 },
+    { duration: '5s', target: 0 },
   ],
   thresholds: {
     'http_req_duration{fase:consulta}': ['p(95)<1000'],

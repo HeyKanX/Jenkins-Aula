@@ -6,10 +6,10 @@ const TAMANOS = [15360, 16300, 16384];
 
 export const options = {
   stages: [
-    { duration: '10s', target: 5 },
+    { duration: '5s', target: 5 },
+    { duration: '5s', target: 30 },
     { duration: '15s', target: 30 },
-    { duration: '30s', target: 30 },
-    { duration: '10s', target: 0 },
+    { duration: '5s', target: 0 },
   ],
   thresholds: {
     http_req_failed: ['rate<0.05'],

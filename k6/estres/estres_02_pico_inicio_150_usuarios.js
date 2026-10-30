@@ -5,13 +5,13 @@ const BASE_URL = __ENV.BASE_URL || 'http://127.0.0.1:3000';
 
 export const options = {
   stages: [
-    { duration: '10s', target: 10 },   
-    { duration: '20s', target: 10 },   
+    { duration: '5s', target: 10 },   
+    { duration: '5s', target: 10 },   
     { duration: '2s', target: 1000 },  
-    { duration: '30s', target: 1000 }, 
+    { duration: '15s', target: 1000 }, 
     { duration: '2s', target: 10 },   
-    { duration: '30s', target: 10 },   
-    { duration: '5s', target: 0 },
+    { duration: '5s', target: 10 },   
+    { duration: '3s', target: 0 },
   ],
   thresholds: {
     http_req_failed: ['rate<0.05'],

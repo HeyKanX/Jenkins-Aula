@@ -6,11 +6,11 @@ const BASE_URL = __ENV.BASE_URL || 'http://127.0.0.1:3000';
 export const options = {
   stages: [
     { duration: '5s', target: 10 },
-    { duration: '5s', target: 10 },    
-    { duration: '15s', target: 300 },   
-    { duration: '40s', target: 300 },   
     { duration: '5s', target: 10 },
-    { duration: '5s', target: 10 },    
+    { duration: '15s', target: 300 },
+    { duration: '40s', target: 300 },
+    { duration: '5s', target: 10 },
+    { duration: '5s', target: 10 },
     { duration: '3s', target: 0 },
   ],
   thresholds: {

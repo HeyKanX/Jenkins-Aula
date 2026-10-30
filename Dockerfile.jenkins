@@ -2,7 +2,9 @@ FROM jenkins/jenkins:lts-jdk17
 
 USER root
 
-RUN apt-get update \
+RUN if [ -f /etc/apt/sources.list ]; then sed -i 's|http://deb.debian.org|https://deb.debian.org|g' /etc/apt/sources.list; fi \
+    && find /etc/apt/sources.list.d -type f \( -name '*.list' -o -name '*.sources' \) -exec sed -i 's|http://deb.debian.org|https://deb.debian.org|g' {} + \
+    && apt-get update \
     && apt-get install -y --no-install-recommends \
         ca-certificates \
         chromium \

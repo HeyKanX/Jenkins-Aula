@@ -1,7 +1,8 @@
 FROM grafana/k6:latest
 
+USER root
 WORKDIR /scripts
 COPY k6/ /scripts/
-RUN mkdir -p /reports
+RUN mkdir -p /reports && chmod 777 /reports
 
 ENTRYPOINT ["k6"]

@@ -6,7 +6,7 @@ docker rm -f "$container_name" >/dev/null 2>&1 || true
 
 set +e
 docker compose --profile tests run --name "$container_name" playwright-tiendademo \
-  python -m pytest playwright_tests/tests -v --junitxml=reports/resultados.xml
+  python -m xmlrunner discover -s playwright_tests/tests -p 'test_*.py' -o reports
 status=$?
 set -e
 

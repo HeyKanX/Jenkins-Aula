@@ -1,0 +1,16 @@
+services:
+  aula-nova:
+    build:
+      context: ./semana9/aula-nova
+    container_name: aula-nova
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: "3000"
+
+  tienda-demo:
+    build:
+      context: ./semana8/tienda-demo
+    container_name: tienda-demo
+    ports:
+      - "8081:80"

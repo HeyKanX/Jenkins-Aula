@@ -26,11 +26,11 @@ pipeline {
         stage('Preparar dependencias funcionales') {
             steps {
                 sh '''
-                    rm -rf .venv tests/functional/reports
-                    python3 -m venv .venv
-                    .venv/bin/python -m pip install --upgrade pip
-                    .venv/bin/python -m pip install -r tests/functional/requirements.txt
-                    mkdir -p tests/functional/reports
+                    rm -rf semana9/aula-nova/.venv semana9/aula-nova/tests/functional/reports
+                    python3 -m venv semana9/aula-nova/.venv
+                    semana9/aula-nova/.venv/bin/python -m pip install --upgrade pip
+                    semana9/aula-nova/.venv/bin/python -m pip install -r semana9/aula-nova/tests/functional/requirements.txt
+                    mkdir -p semana9/aula-nova/tests/functional/reports
                 '''
             }
         }
@@ -38,7 +38,7 @@ pipeline {
         stage('Pruebas unitarias de backend') {
             steps {
                 catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
-                    sh 'npm test'
+                    sh 'cd semana9/aula-nova && npm test'
                 }
             }
         }
@@ -46,6 +46,8 @@ pipeline {
         stage('Iniciar Aula Nova') {
             steps {
                 sh '''
+                    cd semana9/aula-nova
+
                     if [ -f .jenkins-server.pid ] && kill -0 "$(cat .jenkins-server.pid)" 2>/dev/null; then
                         echo 'Ya existe un servidor de Aula Nova en este workspace.'
                         exit 1
@@ -70,7 +72,7 @@ pipeline {
         stage('Pruebas funcionales') {
             steps {
                 catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
-                    sh '.venv/bin/behave tests/functional/features --junit --junit-directory tests/functional/reports'
+                    sh 'semana9/aula-nova/.venv/bin/behave semana9/aula-nova/tests/functional/features --junit --junit-directory semana9/aula-nova/tests/functional/reports'
                 }
             }
         }
@@ -81,7 +83,7 @@ pipeline {
                     sh '''
                         status=0
                         for group in rendimiento estres seguridad; do
-                            for script in k6/"$group"/*.js; do
+                            for script in semana9/aula-nova/k6/"$group"/*.js; do
                                 echo "Ejecutando $script"
                                 k6 run "$script" || status=1
                             done
@@ -95,12 +97,12 @@ pipeline {
 
     post {
         always {
-            junit allowEmptyResults: true, testResults: 'tests/functional/reports/*.xml'
-            archiveArtifacts artifacts: 'tests/functional/evidencias/**/*.png,tests/functional/reports/**/*.xml,jenkins-server*.log', allowEmptyArchive: true
+            junit allowEmptyResults: true, testResults: 'semana9/aula-nova/tests/functional/reports/*.xml'
+            archiveArtifacts artifacts: 'semana9/aula-nova/tests/functional/evidencias/**/*.png,semana9/aula-nova/tests/functional/reports/**/*.xml,semana9/aula-nova/jenkins-server*.log', allowEmptyArchive: true
             sh '''
-                if [ -f .jenkins-server.pid ]; then
-                    kill "$(cat .jenkins-server.pid)" 2>/dev/null || true
-                    rm -f .jenkins-server.pid
+                if [ -f semana9/aula-nova/.jenkins-server.pid ]; then
+                    kill "$(cat semana9/aula-nova/.jenkins-server.pid)" 2>/dev/null || true
+                    rm -f semana9/aula-nova/.jenkins-server.pid
                 fi
             '''
         }

@@ -22,3 +22,9 @@ k6-summary.json
 tests/functional/reports/
 jenkins-server*.log
 .jenkins-server.pid
+
+# Resultados temporales de la estructura unificada
+**/tests/functional/reports/
+**/evidencias/playwright/temporales/
+**/jenkins-server*.log
+**/.jenkins-server.pid

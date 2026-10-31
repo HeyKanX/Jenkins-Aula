@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+playwright/.cache/
+evidencias/selenium/*
+!evidencias/selenium/.gitkeep
+evidencias/playwright/*
+!evidencias/playwright/.gitkeep

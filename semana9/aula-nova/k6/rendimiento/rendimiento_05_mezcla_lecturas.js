@@ -3,8 +3,8 @@ import http from 'k6/http';
 import { check, sleep } from 'k6';
 
 const BASE_URL = (__ENV.BASE_URL || 'http://127.0.0.1:3000').replace(/\/$/, '');
-if (!/^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?\/?$/.test(BASE_URL)) {
-  throw new Error('Estas pruebas solo pueden ejecutarse contra localhost o 127.0.0.1.');
+if (!/^http:\/\/(localhost|127\.0\.0\.1|aula-nova)(:\d+)?\/?$/.test(BASE_URL)) {
+  throw new Error('Estas pruebas solo pueden ejecutarse contra localhost, 127.0.0.1 o Aula Nova en Docker.');
 }
 const RUTAS = ['/', '/api/student', '/api/courses', '/api/messages'];
 export const options = {

@@ -1,0 +1,10 @@
+FROM mcr.microsoft.com/playwright/python:v1.64.1-noble
+
+WORKDIR /tests
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt playwright==1.64.1
+
+COPY . .
+
+CMD ["python", "-m", "unittest", "discover", "-s", "playwright_tests/tests", "-p", "test_*.py", "-v"]

@@ -51,8 +51,11 @@ def start_isolated_server():
 def before_scenario(context, scenario):
     tags = set(scenario.tags) | set(getattr(scenario.feature, "tags", []))
     context.server_process = None
+    docker_base_url = os.getenv("AULA_NOVA_URL")
 
-    if "messages" in tags:
+    if docker_base_url:
+        context.base_url = docker_base_url.rstrip("/")
+    elif "messages" in tags:
         context.server_process, context.base_url = start_isolated_server()
     else:
         context.base_url = "http://127.0.0.1:3000"

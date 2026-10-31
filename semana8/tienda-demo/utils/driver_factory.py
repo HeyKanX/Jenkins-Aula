@@ -5,6 +5,8 @@ Centraliza la configuración del driver Chrome para que los archivos de test
 mantengan un único punto de creación del navegador.
 """
 
+import os
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -19,6 +21,10 @@ class DriverFactory:
         if headless:
             options.add_argument('--headless=new')
         options.add_argument('--disable-gpu')
-        driver = webdriver.Chrome(options=options)
-        driver.maximize_window()
+        remote_url = os.getenv("SELENIUM_REMOTE_URL")
+        if remote_url:
+            driver = webdriver.Remote(command_executor=remote_url, options=options)
+        else:
+            driver = webdriver.Chrome(options=options)
+            driver.maximize_window()
         return driver

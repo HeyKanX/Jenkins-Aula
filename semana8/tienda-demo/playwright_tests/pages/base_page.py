@@ -1,4 +1,5 @@
 """Operaciones comunes para las páginas Playwright de TiendaDemo."""
+import os
 from pathlib import Path
 
 class BasePage:
@@ -8,6 +9,7 @@ class BasePage:
     def open(self, url=None):
         if url is None:
             url = (Path(__file__).resolve().parents[2] / "app" / "tienda_demo.html").as_uri()
+        url = os.getenv("TIENDA_DEMO_URL", url)
         self.page.goto(url)
 
     def click(self, selector):

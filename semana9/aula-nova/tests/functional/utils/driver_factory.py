@@ -17,7 +17,12 @@ def create_driver():
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
 
-    driver = webdriver.Chrome(options=options)
-    if os.getenv("CI", "").lower() != "true":
+    remote_url = os.getenv("SELENIUM_REMOTE_URL")
+    if remote_url:
+        driver = webdriver.Remote(command_executor=remote_url, options=options)
+    else:
+        driver = webdriver.Chrome(options=options)
+
+    if os.getenv("CI", "").lower() != "true" and not remote_url:
         driver.maximize_window()
     return driver

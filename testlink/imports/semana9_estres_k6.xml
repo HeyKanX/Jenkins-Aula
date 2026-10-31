@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+  <testcase name="E-01 - Inicio 50 Usuarios (k6)">
+    <node_order><![CDATA[411]]></node_order>
+    <externalid><![CDATA[411]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso E-01 automatizado con Grafana k6.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar E-01 mediante Grafana k6.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="E-02 - Pico Inicio 150 Usuarios (k6)">
+    <node_order><![CDATA[412]]></node_order>
+    <externalid><![CDATA[412]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso E-02 automatizado con Grafana k6.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar E-02 mediante Grafana k6.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="E-03 - Perfil 75 Usuarios (k6)">
+    <node_order><![CDATA[413]]></node_order>
+    <externalid><![CDATA[413]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso E-03 automatizado con Grafana k6.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar E-03 mediante Grafana k6.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="E-04 - Cursos 100 Usuarios (k6)">
+    <node_order><![CDATA[414]]></node_order>
+    <externalid><![CDATA[414]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso E-04 automatizado con Grafana k6.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar E-04 mediante Grafana k6.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="E-05 - Bandeja 100 Usuarios (k6)">
+    <node_order><![CDATA[415]]></node_order>
+    <externalid><![CDATA[415]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso E-05 automatizado con Grafana k6.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar E-05 mediante Grafana k6.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="E-06 - Mensajes Concurrentes (k6)">
+    <node_order><![CDATA[416]]></node_order>
+    <externalid><![CDATA[416]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso E-06 automatizado con Grafana k6.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar E-06 mediante Grafana k6.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="E-07 - Cuerpos Limite (k6)">
+    <node_order><![CDATA[417]]></node_order>
+    <externalid><![CDATA[417]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso E-07 automatizado con Grafana k6.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar E-07 mediante Grafana k6.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="E-08 - Invalidas Bajo Carga (k6)">
+    <node_order><![CDATA[418]]></node_order>
+    <externalid><![CDATA[418]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso E-08 automatizado con Grafana k6.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar E-08 mediante Grafana k6.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="E-09 - Saturacion Conexiones (k6)">
+    <node_order><![CDATA[419]]></node_order>
+    <externalid><![CDATA[419]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso E-09 automatizado con Grafana k6.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar E-09 mediante Grafana k6.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="E-10 - Recuperacion Servicio (k6)">
+    <node_order><![CDATA[420]]></node_order>
+    <externalid><![CDATA[420]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso E-10 automatizado con Grafana k6.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar E-10 mediante Grafana k6.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+</testcases>

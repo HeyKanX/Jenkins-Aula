@@ -66,8 +66,12 @@ jobs:
         run: sh ci/run-k6-suite.sh seguridad
 
       - name: TestLink
-        if: always()
-        run: echo "La publicación en TestLink se activará al configurar sus secretos y el plan de pruebas."
+        if: ${{ always() && secrets.TESTLINK_URL != '' && secrets.TESTLINK_DEVKEY != '' }}
+        env:
+          TESTLINK_URL: ${{ secrets.TESTLINK_URL }}
+          TESTLINK_DEVKEY: ${{ secrets.TESTLINK_DEVKEY }}
+          TESTLINK_PIPELINE_ID: GitHub Actions ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python3 testlink/register_results.py
 
       - name: Reports
         if: always()

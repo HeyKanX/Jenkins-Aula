@@ -15,6 +15,8 @@ pipeline {
         TIENDA_DEMO_PORT = '8181'
         SELENIUM_PORT = '4445'
         SELENIUM_VNC_PORT = '7901'
+        TESTLINK_URL = 'http://app/lib/api/xmlrpc/v1/xmlrpc.php'
+        TESTLINK_PIPELINE_ID = "Jenkins: ${BUILD_URL}"
     }
 
     stages {
@@ -104,7 +106,9 @@ pipeline {
 
         stage('TestLink') {
             steps {
-                echo 'La actualización automática de TestLink se incorporará después de crear el proyecto, plan, casos y credenciales en TestLink.'
+                withCredentials([string(credentialsId: 'testlink-devkey', variable: 'TESTLINK_DEVKEY')]) {
+                    sh 'python3 testlink/register_results.py'
+                }
             }
         }
 

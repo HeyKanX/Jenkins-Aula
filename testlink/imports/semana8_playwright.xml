@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+  <testcase name="TC-01 - Agregar Un Producto (Playwright)">
+    <node_order><![CDATA[101]]></node_order>
+    <externalid><![CDATA[101]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-01 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-01 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-02 - Agregar Productos Diferentes (Playwright)">
+    <node_order><![CDATA[102]]></node_order>
+    <externalid><![CDATA[102]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-02 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-02 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-03 - Agregar Producto Repetido (Playwright)">
+    <node_order><![CDATA[103]]></node_order>
+    <externalid><![CDATA[103]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-03 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-03 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-04 - Actualizar Contador (Playwright)">
+    <node_order><![CDATA[104]]></node_order>
+    <externalid><![CDATA[104]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-04 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-04 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-05 - Consultar Producto Agregado (Playwright)">
+    <node_order><![CDATA[105]]></node_order>
+    <externalid><![CDATA[105]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-05 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-05 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-06 - Aumentar Cantidad (Playwright)">
+    <node_order><![CDATA[106]]></node_order>
+    <externalid><![CDATA[106]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-06 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-06 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-07 - Disminuir Cantidad (Playwright)">
+    <node_order><![CDATA[107]]></node_order>
+    <externalid><![CDATA[107]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-07 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-07 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-08 - Cantidad Cero (Playwright)">
+    <node_order><![CDATA[108]]></node_order>
+    <externalid><![CDATA[108]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-08 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-08 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-09 - Ingresar Cantidad Negativa (Playwright)">
+    <node_order><![CDATA[109]]></node_order>
+    <externalid><![CDATA[109]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-09 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-09 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-10 - Eliminar Producto (Playwright)">
+    <node_order><![CDATA[110]]></node_order>
+    <externalid><![CDATA[110]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-10 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-10 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-11 - Eliminar Ultimo Producto (Playwright)">
+    <node_order><![CDATA[111]]></node_order>
+    <externalid><![CDATA[111]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-11 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-11 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-12 - Conservar Otro Producto (Playwright)">
+    <node_order><![CDATA[112]]></node_order>
+    <externalid><![CDATA[112]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-12 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-12 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-13 - Actualizar Subtotal Al Eliminar Producto (Playwright)">
+    <node_order><![CDATA[113]]></node_order>
+    <externalid><![CDATA[113]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-13 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-13 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-14 - Aceptar Cupon Valido (Playwright)">
+    <node_order><![CDATA[114]]></node_order>
+    <externalid><![CDATA[114]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-14 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-14 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-15 - Rechazar Cupon Invalido (Playwright)">
+    <node_order><![CDATA[115]]></node_order>
+    <externalid><![CDATA[115]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-15 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-15 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-16 - Rechazar Cupon Vacio (Playwright)">
+    <node_order><![CDATA[116]]></node_order>
+    <externalid><![CDATA[116]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-16 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-16 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-17 - Cupon Repetido (Playwright)">
+    <node_order><![CDATA[117]]></node_order>
+    <externalid><![CDATA[117]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-17 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-17 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-18 - Calcular Descuento Diez Por Ciento (Playwright)">
+    <node_order><![CDATA[118]]></node_order>
+    <externalid><![CDATA[118]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-18 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-18 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-19 - Sin Cupon Total Igual Subtotal (Playwright)">
+    <node_order><![CDATA[119]]></node_order>
+    <externalid><![CDATA[119]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-19 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-19 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-20 - Carrito Vacio Sin Checkout (Playwright)">
+    <node_order><![CDATA[120]]></node_order>
+    <externalid><![CDATA[120]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-20 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-20 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-21 - Checkout Sin Datos (Playwright)">
+    <node_order><![CDATA[121]]></node_order>
+    <externalid><![CDATA[121]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-21 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-21 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-22 - Nombre Obligatorio (Playwright)">
+    <node_order><![CDATA[122]]></node_order>
+    <externalid><![CDATA[122]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-22 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-22 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-23 - Apellido Obligatorio (Playwright)">
+    <node_order><![CDATA[123]]></node_order>
+    <externalid><![CDATA[123]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-23 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-23 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-24 - Correo Obligatorio (Playwright)">
+    <node_order><![CDATA[124]]></node_order>
+    <externalid><![CDATA[124]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-24 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-24 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-25 - Formato Correo (Playwright)">
+    <node_order><![CDATA[125]]></node_order>
+    <externalid><![CDATA[125]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-25 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-25 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-26 - Telefono Obligatorio (Playwright)">
+    <node_order><![CDATA[126]]></node_order>
+    <externalid><![CDATA[126]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-26 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-26 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-27 - Direccion Obligatoria (Playwright)">
+    <node_order><![CDATA[127]]></node_order>
+    <externalid><![CDATA[127]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-27 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-27 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-28 - Compra Valida (Playwright)">
+    <node_order><![CDATA[128]]></node_order>
+    <externalid><![CDATA[128]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-28 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-28 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-29 - Compra Con Varios Productos (Playwright)">
+    <node_order><![CDATA[129]]></node_order>
+    <externalid><![CDATA[129]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-29 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-29 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-30 - Generar Numero Orden (Playwright)">
+    <node_order><![CDATA[130]]></node_order>
+    <externalid><![CDATA[130]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-30 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-30 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-31 - Continuar Comprando (Playwright)">
+    <node_order><![CDATA[131]]></node_order>
+    <externalid><![CDATA[131]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-31 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-31 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-32 - Agregar Producto Como Usuario (Playwright)">
+    <node_order><![CDATA[132]]></node_order>
+    <externalid><![CDATA[132]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-32 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-32 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-33 - Resumen Carrito (Playwright)">
+    <node_order><![CDATA[133]]></node_order>
+    <externalid><![CDATA[133]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-33 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-33 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-34 - Aplicar Cupon Valido Como Usuario (Playwright)">
+    <node_order><![CDATA[134]]></node_order>
+    <externalid><![CDATA[134]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-34 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-34 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-35 - Confirmar Compra (Playwright)">
+    <node_order><![CDATA[135]]></node_order>
+    <externalid><![CDATA[135]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-35 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-35 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-36 - Validar Nombre Vacio (Playwright)">
+    <node_order><![CDATA[136]]></node_order>
+    <externalid><![CDATA[136]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-36 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-36 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-37 - Confirmacion Con Orden (Playwright)">
+    <node_order><![CDATA[137]]></node_order>
+    <externalid><![CDATA[137]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-37 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-37 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-38 - Compra De Varios Productos (Playwright)">
+    <node_order><![CDATA[138]]></node_order>
+    <externalid><![CDATA[138]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-38 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-38 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-39 - Carrito Vacio (Playwright)">
+    <node_order><![CDATA[139]]></node_order>
+    <externalid><![CDATA[139]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-39 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-39 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-40 - Total Con Descuento (Playwright)">
+    <node_order><![CDATA[140]]></node_order>
+    <externalid><![CDATA[140]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-40 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-40 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-41 - Compra Con Descuento (Playwright)">
+    <node_order><![CDATA[141]]></node_order>
+    <externalid><![CDATA[141]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-41 automatizado con Playwright.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-41 mediante Playwright.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+</testcases>

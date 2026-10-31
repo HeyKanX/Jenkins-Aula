@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+  <testcase name="TC-01 - Carga de la página principal">
+    <node_order><![CDATA[301]]></node_order>
+    <externalid><![CDATA[301]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-01 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-01 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-02 - Resumen académico">
+    <node_order><![CDATA[302]]></node_order>
+    <externalid><![CDATA[302]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-02 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-02 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-03 - Listado resumido de cursos">
+    <node_order><![CDATA[303]]></node_order>
+    <externalid><![CDATA[303]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-03 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-03 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-04 - Navegación a Mis cursos">
+    <node_order><![CDATA[304]]></node_order>
+    <externalid><![CDATA[304]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-04 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-04 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-05 - Información detallada de cursos">
+    <node_order><![CDATA[305]]></node_order>
+    <externalid><![CDATA[305]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-05 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-05 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-06 - Navegación a Calificaciones">
+    <node_order><![CDATA[306]]></node_order>
+    <externalid><![CDATA[306]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-06 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-06 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-07 - Valores de notas de Cálculo diferencial">
+    <node_order><![CDATA[307]]></node_order>
+    <externalid><![CDATA[307]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-07 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-07 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-08 - Evaluación pendiente sin nota">
+    <node_order><![CDATA[308]]></node_order>
+    <externalid><![CDATA[308]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-08 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-08 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-09 - Acceso a calificaciones mediante progreso">
+    <node_order><![CDATA[309]]></node_order>
+    <externalid><![CDATA[309]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-09 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-09 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-10 - Consulta de perfil desde menú">
+    <node_order><![CDATA[310]]></node_order>
+    <externalid><![CDATA[310]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-10 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-10 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-11 - Acceso a perfil desde encabezado">
+    <node_order><![CDATA[311]]></node_order>
+    <externalid><![CDATA[311]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-11 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-11 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-12 - Bandeja de mensajes inicialmente vacía">
+    <node_order><![CDATA[312]]></node_order>
+    <externalid><![CDATA[312]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-12 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-12 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-13 - Apertura de redacción desde Inicio">
+    <node_order><![CDATA[313]]></node_order>
+    <externalid><![CDATA[313]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-13 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-13 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-14 - Apertura de redacción desde Mensajes">
+    <node_order><![CDATA[314]]></node_order>
+    <externalid><![CDATA[314]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-14 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-14 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-15 - Cancelación de mensaje">
+    <node_order><![CDATA[315]]></node_order>
+    <externalid><![CDATA[315]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-15 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-15 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-16 - Validación del formulario completamente vacío">
+    <node_order><![CDATA[316]]></node_order>
+    <externalid><![CDATA[316]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-16 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-16 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-17 - Validación de curso obligatorio">
+    <node_order><![CDATA[317]]></node_order>
+    <externalid><![CDATA[317]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-17 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-17 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-18 - Rechazo de asunto menor que 3 caracteres">
+    <node_order><![CDATA[318]]></node_order>
+    <externalid><![CDATA[318]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-18 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-18 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-19 - Rechazo de mensaje menor que 5 caracteres">
+    <node_order><![CDATA[319]]></node_order>
+    <externalid><![CDATA[319]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-19 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-19 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-20 - Envío válido y persistencia durante la sesión">
+    <node_order><![CDATA[320]]></node_order>
+    <externalid><![CDATA[320]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-20 automatizado con Behave.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-20 mediante Behave.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+</testcases>

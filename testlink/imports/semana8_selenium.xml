@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+  <testcase name="TC-01 - Agregar Un Producto (Selenium)">
+    <node_order><![CDATA[1]]></node_order>
+    <externalid><![CDATA[1]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-01 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-01 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-02 - Agregar Productos Diferentes (Selenium)">
+    <node_order><![CDATA[2]]></node_order>
+    <externalid><![CDATA[2]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-02 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-02 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-03 - Agregar Producto Repetido (Selenium)">
+    <node_order><![CDATA[3]]></node_order>
+    <externalid><![CDATA[3]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-03 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-03 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-04 - Actualizar Contador (Selenium)">
+    <node_order><![CDATA[4]]></node_order>
+    <externalid><![CDATA[4]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-04 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-04 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-05 - Consultar Producto Agregado (Selenium)">
+    <node_order><![CDATA[5]]></node_order>
+    <externalid><![CDATA[5]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-05 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-05 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-06 - Aumentar Cantidad (Selenium)">
+    <node_order><![CDATA[6]]></node_order>
+    <externalid><![CDATA[6]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-06 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-06 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-07 - Disminuir Cantidad (Selenium)">
+    <node_order><![CDATA[7]]></node_order>
+    <externalid><![CDATA[7]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-07 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-07 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-08 - Cantidad Cero (Selenium)">
+    <node_order><![CDATA[8]]></node_order>
+    <externalid><![CDATA[8]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-08 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-08 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-09 - Ingresar Cantidad Negativa (Selenium)">
+    <node_order><![CDATA[9]]></node_order>
+    <externalid><![CDATA[9]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-09 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-09 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-10 - Eliminar Producto (Selenium)">
+    <node_order><![CDATA[10]]></node_order>
+    <externalid><![CDATA[10]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-10 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-10 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-11 - Eliminar Ultimo Producto (Selenium)">
+    <node_order><![CDATA[11]]></node_order>
+    <externalid><![CDATA[11]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-11 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-11 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-12 - Conservar Otro Producto (Selenium)">
+    <node_order><![CDATA[12]]></node_order>
+    <externalid><![CDATA[12]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-12 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-12 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-13 - Actualizar Subtotal Al Eliminar Producto (Selenium)">
+    <node_order><![CDATA[13]]></node_order>
+    <externalid><![CDATA[13]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-13 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-13 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-14 - Aceptar Cupon Valido (Selenium)">
+    <node_order><![CDATA[14]]></node_order>
+    <externalid><![CDATA[14]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-14 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-14 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-15 - Rechazar Cupon Invalido (Selenium)">
+    <node_order><![CDATA[15]]></node_order>
+    <externalid><![CDATA[15]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-15 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-15 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-16 - Rechazar Cupon Vacio (Selenium)">
+    <node_order><![CDATA[16]]></node_order>
+    <externalid><![CDATA[16]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-16 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-16 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-17 - Cupon Repetido (Selenium)">
+    <node_order><![CDATA[17]]></node_order>
+    <externalid><![CDATA[17]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-17 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-17 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-18 - Calcular Descuento Diez Por Ciento (Selenium)">
+    <node_order><![CDATA[18]]></node_order>
+    <externalid><![CDATA[18]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-18 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-18 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-19 - Sin Cupon Total Igual Subtotal (Selenium)">
+    <node_order><![CDATA[19]]></node_order>
+    <externalid><![CDATA[19]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-19 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-19 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-20 - Carrito Vacio Sin Checkout (Selenium)">
+    <node_order><![CDATA[20]]></node_order>
+    <externalid><![CDATA[20]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-20 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-20 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-21 - Checkout Sin Datos (Selenium)">
+    <node_order><![CDATA[21]]></node_order>
+    <externalid><![CDATA[21]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-21 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-21 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-22 - Nombre Obligatorio (Selenium)">
+    <node_order><![CDATA[22]]></node_order>
+    <externalid><![CDATA[22]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-22 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-22 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-23 - Apellido Obligatorio (Selenium)">
+    <node_order><![CDATA[23]]></node_order>
+    <externalid><![CDATA[23]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-23 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-23 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-24 - Correo Obligatorio (Selenium)">
+    <node_order><![CDATA[24]]></node_order>
+    <externalid><![CDATA[24]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-24 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-24 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-25 - Formato Correo (Selenium)">
+    <node_order><![CDATA[25]]></node_order>
+    <externalid><![CDATA[25]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-25 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-25 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-26 - Telefono Obligatorio (Selenium)">
+    <node_order><![CDATA[26]]></node_order>
+    <externalid><![CDATA[26]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-26 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-26 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-27 - Direccion Obligatoria (Selenium)">
+    <node_order><![CDATA[27]]></node_order>
+    <externalid><![CDATA[27]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-27 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-27 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-28 - Compra Valida (Selenium)">
+    <node_order><![CDATA[28]]></node_order>
+    <externalid><![CDATA[28]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-28 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-28 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-29 - Compra Con Varios Productos (Selenium)">
+    <node_order><![CDATA[29]]></node_order>
+    <externalid><![CDATA[29]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-29 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-29 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-30 - Generar Numero Orden (Selenium)">
+    <node_order><![CDATA[30]]></node_order>
+    <externalid><![CDATA[30]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-30 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-30 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-31 - Continuar Comprando (Selenium)">
+    <node_order><![CDATA[31]]></node_order>
+    <externalid><![CDATA[31]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-31 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-31 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-32 - Agregar Producto Como Usuario (Selenium)">
+    <node_order><![CDATA[32]]></node_order>
+    <externalid><![CDATA[32]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-32 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-32 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-33 - Resumen Carrito (Selenium)">
+    <node_order><![CDATA[33]]></node_order>
+    <externalid><![CDATA[33]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-33 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-33 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-34 - Aplicar Cupon Valido Como Usuario (Selenium)">
+    <node_order><![CDATA[34]]></node_order>
+    <externalid><![CDATA[34]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-34 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-34 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-35 - Confirmar Compra (Selenium)">
+    <node_order><![CDATA[35]]></node_order>
+    <externalid><![CDATA[35]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-35 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-35 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-36 - Validar Nombre Vacio (Selenium)">
+    <node_order><![CDATA[36]]></node_order>
+    <externalid><![CDATA[36]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-36 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-36 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-37 - Confirmacion Con Orden (Selenium)">
+    <node_order><![CDATA[37]]></node_order>
+    <externalid><![CDATA[37]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-37 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-37 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-38 - Compra De Varios Productos (Selenium)">
+    <node_order><![CDATA[38]]></node_order>
+    <externalid><![CDATA[38]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-38 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-38 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-39 - Carrito Vacio (Selenium)">
+    <node_order><![CDATA[39]]></node_order>
+    <externalid><![CDATA[39]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-39 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-39 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-40 - Total Con Descuento (Selenium)">
+    <node_order><![CDATA[40]]></node_order>
+    <externalid><![CDATA[40]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-40 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-40 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase name="TC-41 - Compra Con Descuento (Selenium)">
+    <node_order><![CDATA[41]]></node_order>
+    <externalid><![CDATA[41]]></externalid>
+    <version><![CDATA[1]]></version>
+    <summary><![CDATA[<p>Caso TC-41 automatizado con Selenium.</p>]]></summary>
+    <preconditions><![CDATA[<p>La aplicación y el entorno de pruebas están disponibles.</p>]]></preconditions>
+    <execution_type><![CDATA[2]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[<p>Ejecutar TC-41 mediante Selenium.</p>]]></actions>
+        <expectedresults><![CDATA[<p>El caso cumple los criterios de aceptación definidos.</p>]]></expectedresults>
+        <execution_type><![CDATA[2]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+</testcases>

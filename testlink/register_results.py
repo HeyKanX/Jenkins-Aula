@@ -73,7 +73,11 @@ def k6_cases(folder: str, offset: int, label: str) -> list[dict]:
         passed = True
         for metric in summary.get("metrics", {}).values():
             for threshold in metric.get("thresholds", {}).values():
-                if threshold.get("ok") is False:
+                threshold_failed = (
+                    threshold is False
+                    or (isinstance(threshold, dict) and threshold.get("ok") is False)
+                )
+                if threshold_failed:
                     passed = False
         checks = summary.get("metrics", {}).get("checks", {}).get("values", {})
         if checks.get("fails", 0) > 0:

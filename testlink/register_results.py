@@ -127,6 +127,10 @@ def main() -> int:
         })
         if api_error(plan):
             raise RuntimeError(plan[0].get("message", "No se encontró el plan de pruebas."))
+        if isinstance(plan, list):
+            if not plan:
+                raise RuntimeError("TestLink no devolvió datos del plan de pruebas.")
+            plan = plan[0]
         plan_id = plan["id"]
         builds = server.tl.getBuildsForTestPlan({"devKey": DEV_KEY, "testplanid": plan_id}) or []
         build = next((item for item in builds if item.get("name") == BUILD_NAME), None)

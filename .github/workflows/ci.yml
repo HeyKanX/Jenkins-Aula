@@ -1,0 +1,99 @@
+name: CI - Calidad TiendaDemo y Aula Nova
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    name: Pruebas automatizadas
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      COMPOSE_PROJECT_NAME: aula-nova-github-${{ github.run_id }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build
+        run: docker compose --profile tests build
+
+      - name: Environment
+        run: |
+          sh ci/prepare-reports.sh
+          sh ci/start-environment.sh
+
+      - name: Unit Tests
+        id: unit
+        continue-on-error: true
+        run: sh ci/run-unit-tests.sh
+
+      - name: Selenium
+        id: selenium
+        continue-on-error: true
+        run: sh ci/run-selenium.sh
+
+      - name: Playwright
+        id: playwright
+        continue-on-error: true
+        run: sh ci/run-playwright.sh
+
+      - name: Functional
+        id: functional
+        continue-on-error: true
+        run: sh ci/run-functional.sh
+
+      - name: Performance
+        id: performance
+        continue-on-error: true
+        run: sh ci/run-k6-suite.sh rendimiento
+
+      - name: Stress
+        id: stress
+        continue-on-error: true
+        run: sh ci/run-k6-suite.sh estres
+
+      - name: Security
+        id: security
+        continue-on-error: true
+        run: sh ci/run-k6-suite.sh seguridad
+
+      - name: TestLink
+        if: always()
+        run: echo "La publicación en TestLink se activará al configurar sus secretos y el plan de pruebas."
+
+      - name: Reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reportes-${{ github.run_number }}
+          if-no-files-found: warn
+          path: |
+            reports/
+            semana8/tienda-demo/evidencias/
+            semana9/aula-nova/tests/functional/reports/
+            semana9/aula-nova/tests/functional/evidencias/
+
+      - name: Quality Gate
+        if: always()
+        run: |
+          failed=0
+          for result in "${{ steps.unit.outcome }}" "${{ steps.selenium.outcome }}" "${{ steps.playwright.outcome }}" "${{ steps.functional.outcome }}" "${{ steps.performance.outcome }}" "${{ steps.stress.outcome }}" "${{ steps.security.outcome }}"; do
+            if [ "$result" = "failure" ]; then failed=1; fi
+          done
+          if [ "$failed" -eq 1 ]; then
+            echo "Quality Gate: existen suites con resultados fallidos."
+            exit 1
+          fi
+          echo "Quality Gate: todas las suites aprobaron."
+
+      - name: Cleanup
+        if: always()
+        run: sh ci/cleanup-environment.sh

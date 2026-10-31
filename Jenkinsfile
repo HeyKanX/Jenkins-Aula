@@ -2,109 +2,123 @@ pipeline {
     agent any
 
     options {
-        timeout(time: 90, unit: 'MINUTES')
+        skipDefaultCheckout(true)
+        timeout(time: 45, unit: 'MINUTES')
+        disableConcurrentBuilds()
+        timestamps()
     }
 
     environment {
-        CI = 'true'
-        CHROME_BIN = '/usr/bin/chromium'
+        // Separa esta ejecución de los contenedores locales del estudiante.
+        COMPOSE_PROJECT_NAME = 'aula-nova-jenkins'
+        AULA_NOVA_PORT = '3100'
+        TIENDA_DEMO_PORT = '8181'
+        SELENIUM_PORT = '4445'
+        SELENIUM_VNC_PORT = '7901'
     }
 
     stages {
-        stage('Verificar herramientas') {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Verificar Docker') {
             steps {
                 sh '''
-                    node --version
-                    npm --version
-                    python3 --version
-                    chromium --version
-                    k6 version
+                    docker version --format '{{.Server.Version}}'
+                    docker compose version
                 '''
             }
         }
 
-        stage('Preparar dependencias funcionales') {
+        stage('Build') {
             steps {
-                sh '''
-                    rm -rf semana9/aula-nova/.venv semana9/aula-nova/tests/functional/reports
-                    python3 -m venv semana9/aula-nova/.venv
-                    semana9/aula-nova/.venv/bin/python -m pip install --upgrade pip
-                    semana9/aula-nova/.venv/bin/python -m pip install -r semana9/aula-nova/tests/functional/requirements.txt
-                    mkdir -p semana9/aula-nova/tests/functional/reports
-                '''
+                sh 'docker compose --profile tests build'
             }
         }
 
-        stage('Pruebas unitarias de backend') {
+        stage('Environment') {
+            steps {
+                sh 'sh ci/prepare-reports.sh'
+                sh 'sh ci/start-environment.sh'
+            }
+        }
+
+        stage('Unit Tests') {
             steps {
                 catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
-                    sh 'cd semana9/aula-nova && npm test'
+                    sh 'sh ci/run-unit-tests.sh'
                 }
             }
         }
 
-        stage('Iniciar Aula Nova') {
-            steps {
-                sh '''
-                    cd semana9/aula-nova
-
-                    if [ -f .jenkins-server.pid ] && kill -0 "$(cat .jenkins-server.pid)" 2>/dev/null; then
-                        echo 'Ya existe un servidor de Aula Nova en este workspace.'
-                        exit 1
-                    fi
-
-                    nohup node backend/server.js > jenkins-server.log 2> jenkins-server-error.log &
-                    echo $! > .jenkins-server.pid
-
-                    for attempt in $(seq 1 30); do
-                        if curl --fail --silent http://127.0.0.1:3000/ > /dev/null; then
-                            exit 0
-                        fi
-                        sleep 1
-                    done
-
-                    echo 'Aula Nova no inició en http://127.0.0.1:3000.'
-                    exit 1
-                '''
-            }
-        }
-
-        stage('Pruebas funcionales') {
+        stage('Selenium') {
             steps {
                 catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
-                    sh 'semana9/aula-nova/.venv/bin/behave semana9/aula-nova/tests/functional/features --junit --junit-directory semana9/aula-nova/tests/functional/reports'
+                    sh 'sh ci/run-selenium.sh'
                 }
             }
         }
 
-        stage('Pruebas no funcionales con k6') {
+        stage('Playwright') {
             steps {
                 catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
-                    sh '''
-                        status=0
-                        for group in rendimiento estres seguridad; do
-                            for script in semana9/aula-nova/k6/"$group"/*.js; do
-                                echo "Ejecutando $script"
-                                k6 run "$script" || status=1
-                            done
-                        done
-                        exit "$status"
-                    '''
+                    sh 'sh ci/run-playwright.sh'
                 }
+            }
+        }
+
+        stage('Functional') {
+            steps {
+                catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
+                    sh 'sh ci/run-functional.sh'
+                }
+            }
+        }
+
+        stage('Performance') {
+            steps {
+                catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
+                    sh 'sh ci/run-k6-suite.sh rendimiento'
+                }
+            }
+        }
+
+        stage('Stress') {
+            steps {
+                catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
+                    sh 'sh ci/run-k6-suite.sh estres'
+                }
+            }
+        }
+
+        stage('Security') {
+            steps {
+                catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
+                    sh 'sh ci/run-k6-suite.sh seguridad'
+                }
+            }
+        }
+
+        stage('TestLink') {
+            steps {
+                echo 'La actualización automática de TestLink se incorporará después de crear el proyecto, plan, casos y credenciales en TestLink.'
+            }
+        }
+
+        stage('Reports') {
+            steps {
+                junit allowEmptyResults: true, testResults: 'reports/unit/*.xml,reports/selenium/*.xml,reports/playwright/*.xml,semana9/aula-nova/tests/functional/reports/*.xml'
+                archiveArtifacts artifacts: 'reports/**/*,semana8/tienda-demo/evidencias/**/*,semana9/aula-nova/tests/functional/evidencias/**/*', allowEmptyArchive: true
             }
         }
     }
 
     post {
         always {
-            junit allowEmptyResults: true, testResults: 'semana9/aula-nova/tests/functional/reports/*.xml'
-            archiveArtifacts artifacts: 'semana9/aula-nova/tests/functional/evidencias/**/*.png,semana9/aula-nova/tests/functional/reports/**/*.xml,semana9/aula-nova/jenkins-server*.log', allowEmptyArchive: true
-            sh '''
-                if [ -f semana9/aula-nova/.jenkins-server.pid ]; then
-                    kill "$(cat semana9/aula-nova/.jenkins-server.pid)" 2>/dev/null || true
-                    rm -f semana9/aula-nova/.jenkins-server.pid
-                fi
-            '''
+            sh 'sh ci/cleanup-environment.sh || true'
         }
     }
 }

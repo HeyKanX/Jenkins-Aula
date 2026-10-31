@@ -1,0 +1,7 @@
+FROM grafana/k6:latest
+
+WORKDIR /scripts
+COPY k6/ /scripts/
+RUN mkdir -p /reports
+
+ENTRYPOINT ["k6"]
